@@ -125,6 +125,50 @@ header {
   font-weight: bold;
 }
 
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/img-footer.jpg);
+}
+
+.list-unstyled,
+.headingfooter
+{
+  color: white;
+}
+
+#checkin {
+  margin-left: -30px;
+}
+#checkout {
+  margin-left: -60px;
+}
+#guest {
+  margin-left: -130px;
+}
+#rechercher {
+  margin-left: -150px;
+}
+
+.social-icons {
+  padding-top: 1.6em;
+  text-align: center;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+}
+
+.inline li {
+  margin-right: 20px;
+}
+
 }
 
 
